@@ -1,0 +1,45 @@
+
+.price .items{
+    padding: 40px;
+    text-align: center;
+}
+.price h1{
+    color: #1eb2a6;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.price h1 span{
+    color: black;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.price p{
+    color: grey;
+    margin: 40px 0;
+}
+.faq .container{
+    max-width: 70%;
+    border-radius: 5px;
+}
+.faq .box{
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.faq button{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+.faq h2{
+    font-weight: 500;
+}
+.faq .p{
+    padding: 20px;
+}
+.faq .accordion:hover{
+    color:#fff;
+    background-color: #1eb2a6;
+}

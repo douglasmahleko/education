@@ -1,0 +1,34 @@
+.blog img{
+    width: 100%;
+    height: 100%;
+}
+.blog .text{
+    padding: 40px 30px;
+}
+.blog h1{
+    line-height: 30px;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 22px;
+}
+.blog h1:hover{
+    cursor: pointer;
+    color: #1eb2a6;
+}
+.blog span{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1eb2a6;
+    
+}
+.blog span label{
+    color: grey;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.blog p{
+    color: grey;
+}
+.blog span:nth-last-child(1) label{
+    color: #1eb2a6;
+}

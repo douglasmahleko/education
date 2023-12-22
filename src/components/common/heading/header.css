@@ -1,0 +1,53 @@
+.head{
+    padding: 20px 0;
+    color: #000;
+
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.head .ico{
+    margin-left: 10px;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 25px;
+}
+header li{
+    margin-right: 30px;
+}
+header ul{
+    padding: 20px 10px;
+}
+header ul li a{
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: #1eb2a6;
+
+}
+.start{
+    background-color: #1eb2a6;
+    padding-top: 30px;
+    color: #fff;
+    width: 300px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+.button{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.toggle{
+    display: none;
+    
+}

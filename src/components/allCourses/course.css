@@ -1,0 +1,121 @@
+.courseCard{
+    padding: 50px 0;
+}
+.courseCard .items{
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+.courseCard .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #1eb2a6;
+}
+.courseCard i{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.courseCard .text{
+    margin-left: 15px;
+    text-align: left;
+}
+.courseCard .text h1{
+    font-size: 30px;
+    font-weight: 500px;
+    line-height: 45px;
+}
+.courseCard .rate{
+    color: #1eb2a6;
+    margin: 20px 0;
+}
+.courseCard .rate i{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.courseCard .details .dimg i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.courseCard .details .box{
+    /* display: flex; */
+    color: grey;
+    align-items: center;
+}
+.courseCard .details span{
+    color: #1eb2a6;
+    font-weight: 500;
+    font-size: 14px;
+}
+.courseCard .price{
+    margin: 30px 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.outline-btn{
+    margin: 0;
+    width: 100%;
+    border: 2px solid #1eb2a6;
+}
+.courseCard h3{
+    color: #1eb2a6;
+    font-weight: 500;
+}
+.online{
+    text-align: center;
+}
+.online .box{
+    padding: 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 25px -2px rgba(0 0 0 /6%);
+}
+.online .img i{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: #1eb2a6;
+}
+.online h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.online span{
+    padding: 5px 20px;
+    background-color: #f8f8f8;
+    color: #1eb2a6;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.online .box .show{
+    opacity: 0;
+}
+.online .box:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1eb2a6;
+}
+.online .box:hover .show{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.online .box:hover h1{
+    color: #fff;
+}
+.online .box:hover .img i{
+    color: #fff;
+}
+.online #heading h3{
+    color: #1eb2a6;
+}
+.homeAbout #heading h3{
+    color: #1eb2a6;
+}
